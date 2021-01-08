@@ -108,11 +108,11 @@
             map.on('click', 'vg', function(e) {
                 var feature = e.features[0];
                 var description = "<p>";
-                    description += "MAJOR1: ";
-                    description += feature.properties["MAJOR1"];
+                    description += "市町村: ";
+                    description += feature.properties["市町村"];
                     description += "<br>";
-                    description += "NAME: ";
-                    description += feature.properties["NAME"];
+                    description += "樹種: ";
+                    description += feature.properties["樹種"];
                     description += "</p>"
                 new mapboxgl.Popup()
                     .setLngLat(e.lngLat)
