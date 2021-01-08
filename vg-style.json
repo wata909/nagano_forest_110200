@@ -5,11 +5,11 @@
     "vg": {
       "type": "vector", 
         "tiles": [
-        "https://wata909.github.io/vg_08_mvt/mvt/{z}/{x}/{y}.pbf"
+        "https://wata909.github.io/nagano_forest_110200/mvt/{z}/{x}/{y}.pbf"
       ],
-      "minzoom": 0,
-      "maxzoom": 11,
-      "attribution": "環境省"
+      "minzoom": 10,
+      "maxzoom": 15,
+      "attribution": "長野県"
     },
     "gsi-std": {
       "type": "raster",
