@@ -1,0 +1,5 @@
+ogr2ogr -s_srs EPSG:2450 -t_srs EPSG:4326 -oo ENCODING=CP932 -f GeoJSON opendata_110200.geojson opendata_110200.shp
+
+tippecanoe --output-to-directory=mvt --layer=vg --maximum-zoom=15 --minimum-zoom=10 --no-tile-compression --simplify-only-low-zooms opendata_110200.geojson
+
+copy from E:\github\nagano_forest
