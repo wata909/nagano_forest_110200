@@ -99,7 +99,7 @@
       "source": "vg",
       "source-layer": "vg",
       "minzoom": 10,
-      "maxzoom": 15,
+      "maxzoom": 17,
       "paint": {
         "fill-color": "rgba(0, 255, 0, 0.5)",
         "fill-outline-color": "rgba(0, 0, 0, 0.8)"
