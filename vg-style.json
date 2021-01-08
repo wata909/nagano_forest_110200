@@ -98,8 +98,8 @@
       "type": "fill",
       "source": "vg",
       "source-layer": "vg",
-      "minzoom": 7,
-      "maxzoom": 18,
+      "minzoom": 10,
+      "maxzoom": 15,
       "paint": {
         "fill-color": "rgba(0, 255, 0, 0.5)",
         "fill-outline-color": "rgba(0, 0, 0, 0.8)"
